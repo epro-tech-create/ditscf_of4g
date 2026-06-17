@@ -302,7 +302,7 @@ function Hero() {
               style={{ backgroundImage: `url(${src})` }}
               initial={{ scale: 1.08, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
-              transition={{ duration: 1.4, delay: index * 0.16 }}
+              transition={{ duration: 1.4, delay: index * 0.16 }} 
             />
           ))}
         </div>
@@ -317,7 +317,7 @@ function Hero() {
               <Sparkles size={16} className="text-gold" />
               Dar es Salaam Institute of Technology
             </div>
-            <h1 className="max-w-5xl text-md font-black leading-[0.95] tracking-tight md:text-6xl xl:text-8xl">
+            <h1 className="max-w-5xl text-6xl font-black leading-[0.95] tracking-tight md:text-7xl xl:text-8xl">
               One Family For Gospel. 
             </h1>
             {/* <p className="mt-7 max-w-2xl text-lg leading-8 text-white/74 md:text-md">
@@ -362,7 +362,7 @@ function Hero() {
                 <p className="text-sm text-white/70">Next gathering</p>
                 <h3 className="mt-2 text-xl font-black">Together in Praise & Worship</h3>
                 <div className="mt-4 flex items-center justify-between text-sm">
-                  <span>Friday, 5:00 PM</span>
+                  <span>3rd July, 2026 0800 - till dawn</span>
                   <Play size={18} className="text-gold" />
                 </div>
               </div>
